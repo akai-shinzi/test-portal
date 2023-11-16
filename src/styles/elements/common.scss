@@ -1,0 +1,78 @@
+body {
+  color: $secondaryColor;
+}
+
+.item-time {
+  background-color: $primaryColor;
+  min-width: 120px;
+  height: 32px;
+  bottom: 8px;
+  left: 4px;
+}
+
+.healthy-icon {
+  width: 234px;
+  height: 234px;
+}
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.menu-drawer {
+  background-color: $borderColor;
+
+  .menu-drawer-item {
+    height: 72px;
+    border-bottom: 1px solid #656565;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.badge {
+  top: -4px;
+  right: -4px;
+  background-color: #EA6C00;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+
+.ps__rail-y {
+  background-color: $borderColor;
+
+  &:hover {
+    background-color: $borderColor !important;
+  }
+}
+
+.ps__thumb-y {
+  background-color: $primaryColor;
+
+  &:hover {
+    background-color: $primaryColor !important;
+  }
+}
+
+.ps__rail-x {
+  display: none !important;
+}
+
+// .loader {
+//   border: 16px solid #f3f3f3; /* Light grey */
+//   border-top: 16px solid #3498db; /* Blue */
+//   border-radius: 50%;
+//   width: 120px;
+//   height: 120px;
+//   animation: spin 2s linear infinite;
+// }
+
+// @keyframes spin {
+//   0% { transform: rotate(0deg); }
+//   100% { transform: rotate(360deg); }
+// }

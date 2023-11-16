@@ -1,0 +1,43 @@
+.base-page {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.landing-page {
+  .top-header {
+    width: 100%;
+  }
+
+  .icon-date-achievement {
+    background-image: url(../../../public/assets/svg/icon-date-achievement.svg);
+
+    width: 540px;
+    height: 312px;
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+
+    .icon-round {
+      width: 200px;
+      height: 200px;
+      z-index: 1;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-image: url(../../../public/assets/svg/logo-round.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .main-graph {
+    width: calc(100% - 540px);
+    background-color: #2E2E2E;
+  }
+}

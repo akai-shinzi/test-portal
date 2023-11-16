@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #414141;
+  height: 64px;
+}
+
+.navigation-logo {
+  width: 144px;
+  height: 64px;
+}
+
+.navigation-menu {
+  color: #fff;
+}
+
+.navigation-item {
+  &.navigation-selected {
+    pointer-events: none;
+    color: #FF963C;
+  }
+
+  .nav-icon {
+    width: 28px;
+    height: 24px;
+  }
+
+  &:hover {
+    color: #FF963C;
+    text-decoration: underline;
+  }
+}

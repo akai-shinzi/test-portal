@@ -1,0 +1,33 @@
+.category {
+  background-color: $primaryColor;
+  width: 288px;
+  height: 288px;
+
+  .recommmanend-box {
+    width: 240px;
+    height: 240px;
+    background-color: #626262;
+  }
+
+  .box-1 {
+    background-image: url(../../../public/assets/svg/MyRecommend-1.svg);
+  }
+
+  .box-2 {
+    background-image: url(../../../public/assets/svg/MyRecommend-2.svg);
+  }
+
+  .box-3 {
+    background-image: url(../../../public/assets/svg/MyRecommend-3.svg);
+  }
+
+  .challenge-box-title {
+    color: $primaryColor;
+  }
+
+  .challenge-box-note {
+    background-color: #FF963C;
+    width: 160px;
+    height: 24px;
+  }
+}

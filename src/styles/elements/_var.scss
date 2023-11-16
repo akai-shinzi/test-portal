@@ -1,0 +1,11 @@
+$primaryColor: #FFCC21;
+$secondaryColor: #414141;
+$borderColor: #777777;
+
+$fontPath: '../../assets/fonts/';
+
+@for $i from 1 through 72 {
+  .font-size-#{$i} {
+      font-size: #{$i}px;
+  }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+
+/* a {
+  /* @apply text-blue-700; */
+  /* color: #3eb5e5 */
+/* } */
+
+/* a:hover { */
+  /* @apply border-b-2 #3eb5e5; */
+/* } */
+
+@tailwind components;
+
+@tailwind utilities;
+

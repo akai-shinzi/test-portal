@@ -1,0 +1,79 @@
+.challenge-page {
+
+  .graph-record {
+    font-weight: 400;
+    width: 100% !important;
+    background-color: $secondaryColor;
+    padding: 16px 24px;
+    padding-bottom: 32px;
+  }
+
+  .chart-container {
+    font-weight: 400;
+    width: 100% !important;
+    background-color: $secondaryColor;
+    height: 200px;
+
+    .main-graph {
+      width: 100%;
+    }
+  }
+}
+
+.flex-wrap-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-exercies {
+  background-color: $secondaryColor;
+  padding: 16px 32px;
+
+  .item-exercies {
+    display: flex;
+    padding: 8px 16px;
+
+    &::before {
+      content: "·";
+      padding-right: 16px;
+      font-size: 40px;
+      vertical-align: middle;
+      line-height: 20px;
+      border-bottom: 1px solid $borderColor;
+    }
+
+    >div {
+      border-bottom: 1px solid $borderColor;
+    }
+  }
+
+  .value {
+    color: $primaryColor;
+    font-weight: 400;
+  }
+}
+
+.my-diary {
+  border: 2px solid #707070;
+  min-height: 231px;
+}
+
+.graph-filter {
+  color: $primaryColor;
+  border-radius: 16px;
+
+  &.button-selected {
+    color: #fff;
+    background-color: $primaryColor;
+  }
+}
+
+.list-dk-scroll-view {
+  width: calc(100% + 16px) !important;
+  margin: 0 -16px !important;
+
+  .scroll-content {
+    padding: 0px 8px;
+  }
+}
